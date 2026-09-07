@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="whoisnacho — sitio personal de Nacho. En construcción.">
+  <title>whoisnacho</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg: #c0c0c0;
+      --ink: #1a1a1a;
+      --muted: #4a4a4a;
+      --line: #808080;
+      --link: #000080;
+      --panel: #dcdcdc;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Times New Roman", Times, Georgia, serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: 36rem;
+      margin: 12vh auto 0;
+      padding: 0 1.25rem 4rem;
+    }
+
+    header h1 {
+      font-size: 1.35rem;
+      font-weight: normal;
+      letter-spacing: 0.04em;
+      margin: 0 0 0.85rem;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid #fff;
+      margin: 0 0 1.25rem;
+    }
+
+    p {
+      margin: 0 0 0.85rem;
+      color: var(--muted);
+    }
+
+    .note {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.2rem 0.55rem;
+      background: var(--panel);
+      border-top: 1px solid #fff;
+      border-left: 1px solid #fff;
+      border-right: 1px solid #808080;
+      border-bottom: 1px solid #808080;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 0.78rem;
+      color: var(--ink);
+      letter-spacing: 0.02em;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    a {
+      color: var(--link);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>whoisnacho</h1>
+    </header>
+    <hr>
+    <p>sitio personal.</p>
+    <p>por ahora, no hay mucho que ver.</p>
+    <span class="note">en construcción</span>
+    <footer>
+      whoisnacho.com
+    </footer>
+  </div>
+</body>
+</html>
