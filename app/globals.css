@@ -58,7 +58,8 @@ a:hover {
   background-size: 16px 16px;
 }
 
-.page.sale {
+.page.sale,
+.page.doc {
   justify-content: flex-start;
   padding-top: 40px;
 }
@@ -92,6 +93,18 @@ h1 {
 
 .caption p {
   margin: 0.4rem 0;
+}
+
+.page.doc .panel {
+  width: min(640px, 100%);
+}
+
+.page.doc .caption {
+  max-width: none;
+}
+
+.page.doc a {
+  overflow-wrap: anywhere;
 }
 
 .muted {
